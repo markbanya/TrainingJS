@@ -26,7 +26,7 @@ $(document).ready(() => {
             url: "https://speakprogramming.ro/template/DEV/PHP/VIEW/addArticle.php",
             method: "POST",
             data: requestData,
-            success: function(response) {
+            success: function(r) {
 
                 const articles = getArticlesByuserID(6);
                 console.log(articles);
