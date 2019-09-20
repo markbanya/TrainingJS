@@ -1,8 +1,8 @@
 $(document).ready(() => {
-    const submitBtn = document.getElementsByClassName('createArticleBtn')[0];
-    console.log(submitBtn);
-    const submitBtn2 = $(".createArticleBtn");
-    console.log(submitBtn2);
+    const submitBtn3333 = document.getElementsByClassName('createArticleBtn')[0];
+    console.log(submitBtn3333);
+    const submitBtn44444 = $(".createArticleBtn");
+    console.log(submitBtn44444);
 
 
     submitBtn.addEventListener("click", createArticle);
@@ -32,8 +32,8 @@ $(document).ready(() => {
                 console.log(articles);
 
             },
-            error: function(a, status, error) {
-                console.log(error);
+            error: function(a, status, err) {
+                console.log(err);
 
 
 
