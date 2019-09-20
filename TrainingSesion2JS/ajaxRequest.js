@@ -16,7 +16,7 @@ $(document).ready(() => {
         console.log(imageUrl);
 
         const requestData = {
-            user_id: 4,
+            user_id: 6,
             Title: title,
             body: articleBody,
             img: imageUrl
@@ -28,7 +28,7 @@ $(document).ready(() => {
             data: requestData,
             success: function(response) {
 
-                const articles = getArticlesByuserID(4);
+                const articles = getArticlesByuserID(6);
                 console.log(articles);
 
             },
